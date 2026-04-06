@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('manu.css');
+@import url('home.css');
+
+:root{
+    --color-primary-1:#fff9ea;
+    --color-primary-2:#e9b532;
+    --color-primary-3:#887850;
+    --color-primary-4:#866f34;
+    --color-primary-5:#ffdb80;
+    --color-primary-6:#504322;
+    --color-primary-7:#ffb700;
+
+    --color-neutra-1:#cac9c9;
+    --color-neutra-2:#5f752396;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.btn-default{
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    background-color: var(--color-neutra-2);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer ;
+    box-shadow: 0px 0px 10px 2px rgba(163, 153, 57, 0.507);
+    transition: 0.3s ease;
+}
+.btn-default:hover{
+    background-color: var(--color-primary-3);
+
+}
