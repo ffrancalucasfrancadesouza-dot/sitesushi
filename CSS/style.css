@@ -2,6 +2,7 @@
 @import url('manu.css');
 @import url('home.css');
 @import url('cardapio.css');
+@import url('avalicao.css');
 
 :root{
     --color-primary-1:#fff9ea;
@@ -13,7 +14,7 @@
     --color-primary-7:#ffb700;
 
     --color-neutra-1:#cac9c9;
-    --color-neutra-2:#5f752396;
+    --color-neutra-2:#d3d3d396;
 
 
 }
