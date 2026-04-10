@@ -1,398 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
+    <!-- Configuração de caracteres -->
     <meta charset="UTF-8">
+
+    <!-- Responsividade para celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sushi Japonego</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="JS/menu.js" defer></script>
-    
+
+    <!-- Título da página -->
+    <title>Meu Portfólio</title>
+
+    <!-- Conectar com o CSS -->
+    <link rel="stylesheet" href="landing-page CSS/style.css">
+
 </head>
+
 <body>
+
+    <!-- ============================= -->
+    <!-- MENU DE NAVEGAÇÃO -->
+    <!-- ============================= -->
     <header>
-        <nav class="navbar">
-            <i class="fa-solid fa-fish" id="nav-logo">FOOD</i>
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#home">Home</a></li>
-                <li class="nav-item"><a href="#cardapio">Cardapio</a></li>
-                <li class="nav-item"><a href="#avsliação">Avaliações</a></li>
+
+        <nav class="menu">
+
+            <!-- Nome ou logo -->
+             <span class="i">⚡</span>
+
+            <h1 class="logo">Nelson Jesus</h1>
+
+            <!-- Links de navegação -->
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <!-- <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li> -->
+                <li><a href="#contato">Contato</a></li>
             </ul>
-            <button class="btn-default">
-                Peça Aqui
-            </button>
+
         </nav>
 
-        <button class="mobile-btn">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="mobile-menu">
-            <ul class="mabile-nav-list">
-                <li class="nav-item"><a href="#home">Home</a></li>
-                <li class="nav-item"><a href="#cardapio"></a>Cardapio</li>
-                <li class="nav-item"><a href="#avaliação"></a>Avaliações</li>
-            </ul>
+    </header>
+    <div class="img-container">
+        <img src="img das pg/Nelson.png" alt="Imagem de perfil">
+        <!-- <div class="video">
+            <video autoplay muted loop>
+                <source src="img das pg/download.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video> -->
+        </div>
+    </div>
+
+
+    <!-- ============================= -->
+    <!-- SEÇÃO PRINCIPAL (APRESENTAÇÃO) -->
+    <!-- ============================= -->
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <!-- Título principal -->
+            <h2>Olá, eu sou Nelson Jesus</h2>
+            <div class="img-nl">
+                <img src="img das pg/CGLQ1490.JPG" alt="Imagem de perfil">
+            </div>
+
+            <!-- Pequena descrição -->
+            <p>
+               Experiência em instalações residenciais e comerciais, manutenção elétrica e projetos de iluminação.
+            </p>
+            
+
+            <!-- Botão -->
+            <button>Ver meus projetos</button>
+
         </div>
 
-    </header>   
-    <main class="content">
-        <section class="home" id="home">
-            <div class="shape"></div>
-            <div class="cta">
-                <h1 class="title">
-                    O SABOR do Sushi que vai até <span> VOCÊ.</span>
-                </h1>
-                <p class="descricao">
-                    venha experimentar um SABOR sushi, um SABOR maromba, temos também um SABOR energetico o melhor do BRASA, VENHA CONHECER ESSE SABER INVESTIMENTO.
-                </p>
-                <div class="cta-buttons">
-                    <a href="#cardapio" class="btn-default">Ver Cardapio</a>
-                    <a href="" id="phone-buttons">
-                        <button class="btn-default">
-                            <i class="fa-solid fa-phone-volume"></i>
-                        </button>
-                        (69)991116370
-                    </a>
-                </div>
-                <div class="social-media-buttons">
-                    <a href=""><i class="fa-brands fa-whatsapp"></i></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                </div>
-            </div>
-            <div class="banner">
-                <img src="Cozinha Sushi/12.png" alt="imagem principal do sushi">
-            </div>
-            <div class="banner-mobile">
-                <img src="Cozinha Sushi/7.png" alt="img da duvida">
-            </div>
-        
-        </section>
-    </main>
-    <section class="cardapio" id="cardapio">
-        <h2 class="section-title">
-            CARDAPIO
-        </h2>
-        <h3 class="section-subtittle">
-            Nossos pratos especiais.
-        </h3>
-        <div class="area-card">
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- SEÇÃO SOBRE -->
+    <!-- ============================= -->
+    <section id="sobre" class="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <p>
+            Atuo como eletricista há mais de 16 anos, adquirindo ampla experiência em instalações elétricas, manutenção preventiva e corretiva, além de projetos residenciais e comerciais. Tenho compromisso com a segurança, qualidade e eficiência em todos os serviços prestados. Atualmente, estou cursando Eletrotécnica para aprimorar ainda mais minhas habilidades técnicas e oferecer soluções cada vez mais modernas e seguras aos meus clientes.
+        </p>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- SEÇÃO PROJETOS -->
+    <!-- ============================= -->
+    <section id="projetos" class="projetos">
+
+        <h2>Serviços</h2>
+
+        <div class="cards">
+
+            <!-- Projeto 1 -->
             <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/3.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
+                <h3>instalações residenciais</h3>
+                <p>Instalações elétricas residenciais de alta qualidade.</p>
             </div>
+
+            <!-- Projeto 2 -->
             <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/3.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto.</p>
             </div>
+
+            <!-- Projeto 3 -->
             <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/3.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
+                <h3>Projeto 3</h3>
+                <p>Descrição do projeto.</p>
             </div>
-            <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/3.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
 
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
-            </div>
-            <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/3.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
-            </div>
-            <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/2.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
-            </div>
-            <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/4.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
-            </div>
-            <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/6.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
-            </div>
-            <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/14.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
-            </div>
-            <div class="card">
-                <div class="card-heart">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="area-img">
-                    <img src="Cozinha Sushi/5.png" alt="" class="card-img">
-                </div>
-                <h3 class="card-title">
-                    COMBINADO 543
-                </h3>
-                <SPAN class="card-descricao">
-                    O combinado 543 é um audacioso e irresistivel combinado,feito para quem busca uma explosão de sabores.
-
-                </SPAN>
-                <div class="card-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(5000+)</span>
-                </div>
-                <div class="card-price">
-                    <h4>R$133,99</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid fa-basket-shopping"></i>
-
-                    </button>
-                </div>
-                    
-            </div>
         </div>
-        
+
     </section>
-    <section class="Avaliações" id="Avaliações">
-        
+
+
+    <!-- ============================= -->
+    <!-- SEÇÃO HABILIDADES -->
+    <!-- ============================= -->
+    <!-- <section id="habilidades" class="habilidades">
+
+        <h2>Minhas Habilidades</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Banco de Dados</li>
+        </ul>
+
+    </section> -->
+
+
+    <!-- ============================= -->
+    <!-- SEÇÃO CONTATO -->
+    <!-- ============================= -->
+    <section id="contato" class="contato">
+
+        <h2>Contato</h2>
+
+        <form>
+
+            <input type="text" placeholder="Seu nome">
+
+            <input type="tel" placeholder="Seu Contato">
+
+            <textarea placeholder="Digite no que posso te ajudar"></textarea>
+
+            <button>Enviar</button>
+
+        </form>
+
     </section>
+
+
+    <!-- ============================= -->
+    <!-- RODAPÉ -->
+    <!-- ============================= -->
+    <footer>
+
+        <p>© 2026 - Nelson Jesus -  direitos que Deus me deu (TODOS)</p>
+
+    </footer>
+
 </body>
 </html>
