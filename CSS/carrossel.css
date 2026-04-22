@@ -1,0 +1,63 @@
+.area-carrossel{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.track{
+    display: flex;
+    width: max-content;
+    gap: 20px;
+    animation: carrossel 13.5s linear infinite;
+
+}
+.track img{
+    width: 250px;
+    /* margin-right: 20px; */
+    /* margin-top: 10px;  com o width multiplica pela quantidade de img */
+    object-fit: cover;
+    height: 180px;
+}
+.track:hover{
+    animation-play-state: paused;
+}
+@keyframes carrossel{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1890px);
+    }
+}
+.area-carrossrl-principal{
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+.carrossel-principal{
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+.area-carrossrl-principal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.area-carrossel-principal button{
+    z-index: 12;
+    position: absolute;
+    color: rgb(12, 57, 97);
+    top: 50%;
+    transform: translate(-50%);
+    padding: 10px 15px;
+    background-color: brown;
+    border: none;
+}
+.area-carrossel-principal button:first-of-type{
+    left: 10px;
+}
+.area-carrossel-principal button:last-of-type{
+    left: 10px;
+}
